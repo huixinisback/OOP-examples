@@ -1,0 +1,21 @@
+
+public class L2E2_ReverseNumber_class {
+  public static void main(String[] args) {
+  System.out.print("The reverse of 193 is "+reverseMe(193) +"\n");         System.out.print("The reverse of 2002314 is "+reverseMe(2002314)+"\n");
+
+  }
+
+  public static int reverseMe(int n){
+      int r = 0;
+      int next = n;
+      int temp = 0;
+
+      do {
+        r=next%10; //remainder
+        next = next/10; // pop out 1 digit
+        temp = (temp*10) + r; // to push in one digit, new digit is remainder
+      }while(next!=0);
+
+    return(temp);
+  }
+}
