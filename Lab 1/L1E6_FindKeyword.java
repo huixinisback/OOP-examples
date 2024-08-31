@@ -1,10 +1,7 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class L1E6_FindKeyword{
+public class L1E6_FindKeywordv2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.useDelimiter("\n");
